@@ -16,7 +16,7 @@ class OurAppBar extends StatelessWidget with PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: footer_background,
-      title: H1(text: title),
+      title: H1(text: title, key: Key('head-wc'),),
       actions: [
         IconButton(
           icon: this.iconAppBarr,
