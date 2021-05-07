@@ -4,17 +4,14 @@ version: 1.0.0+1
 homepage: https://weincode.com
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 
 dependencies:
   flutter:
     sdk: flutter
 
-dependency_overrides:
-  async: ^2.6.1
-  source_span: ^1.8.1
-  test_api: ^0.4.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
