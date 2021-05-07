@@ -11,7 +11,7 @@ class OurText extends StatelessWidget{
   final double? fontSize;
   final TextAlign? textAlign;
   OurText ({
-    required Key? key,
+    Key? key,
     required this.text,
     this.colorText,
     this.fontSize,
@@ -32,7 +32,7 @@ class OurText extends StatelessWidget{
 
 class H1 extends StatelessWidget{
   final String? text;
-  H1({required Key? key, required this.text}):super(key:key);
+  H1({Key? key, required this.text}):super(key:key);
   @override
   Widget build(BuildContext context) {
     return OurText (text:this.text, colorText: H1_COLOR,key: Key(key.toString()+'h1'),);
@@ -41,7 +41,7 @@ class H1 extends StatelessWidget{
 
 class H2 extends StatelessWidget{
   final String? text;
-  H2({required Key? key, required this.text}):super(key:key);
+  H2({Key? key, required this.text}):super(key:key);
   @override
   Widget build(BuildContext context) {
     return OurText (text:this.text, colorText: H2_COLOR,fontSize: H2_SIZE, key: key,);
